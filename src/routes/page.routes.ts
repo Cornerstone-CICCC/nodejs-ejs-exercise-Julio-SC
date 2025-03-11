@@ -4,8 +4,8 @@ import { v4 as uuidv4 } from 'uuid'
 const pageRouter = Router()
 
 // Home page
-pageRouter.get('/home', (req: Request, res: Response) => {
-  res.status(200).render('index')
+pageRouter.get('/', (req: Request, res: Response) => {
+  res.status(200).render('home')
 })
 
 // About page
