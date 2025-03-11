@@ -1,0 +1,33 @@
+body {
+    background-color: #e8f5e9; /* Verde suave, fresco y limpio */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Fuente moderna */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    background-color: #2e7d32; /* Verde oscuro intenso para contraste */
+}
+
+a {
+    color: #ffffff; /* Blanco para mejor visibilidad */
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: color 0.3s ease; /* Suave transición en el hover */
+}
+
+a:hover {
+    color: #a5d6a7; /* Verde claro que resalta */
+}
+
+nav, footer {
+    margin: 0;
+    padding: 1rem 0;
+    background-color: #1b5e20; /* Verde aún más oscuro para mayor contraste */
+    text-align: center; /* Alineación central en el footer */
+    color: #ffffff; /* Texto blanco para destacar */
+}
